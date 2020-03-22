@@ -85,7 +85,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{\Illuminate\Support\Facades\URL::to('/create')}}">Test</a>
+                    <a href="{{\Illuminate\Support\Facades\URL::to('/create')}}">User</a>
+                    <a href="{{\Illuminate\Support\Facades\URL::to('/articles')}}">Article</a>
                 </div>
             </div>
         </div>

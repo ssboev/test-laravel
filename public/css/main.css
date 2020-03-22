@@ -127,3 +127,7 @@ body{
 .form__title{
     margin-right: 15px;
 }
+
+.article-form{
+    padding: 30px;
+}
