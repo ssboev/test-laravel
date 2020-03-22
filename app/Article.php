@@ -10,7 +10,7 @@ class Article extends Model
         'title', 'text'
     ];
 
-    public  function users(){
+    public function users(){
         return $this->belongsToMany('App\User');
     }
 }

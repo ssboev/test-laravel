@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/create','UserController@create')->name('user.create');
+Route::post('/create','UserController@store')->name('user.store');
+Route::post('/user/{id}','UserController@show')->name('user.show');
+
